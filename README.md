@@ -88,21 +88,29 @@ Senior engineer with **9 years** across C++ low-latency high-performance trading
 
 ## Professional Experience
 
-**LLM Evaluation Engineer** - Turing (Dec 2025 - Present)
+### LLM Evaluation Engineer - Turing (Dec 2025 - Present)
 
-LLM evaluation, RLHF, and RLVR (Reinforcement Learning with Verifiable Rewards). Model-breaking prompt design and adversarial prompt engineering. SWE-bench RL environment construction. OSV/CVE security analysis for LLM training datasets (ImageMagick, libxml2, HAProxy).
+- Trained and evaluated frontier LLMs (Gemini 2.5 Pro, Claude Opus, GPT-o3) through **RLHF** and **RLVR** (Reinforcement Learning with Verifiable Rewards) workflows and structured **Side-by-Side (SxS)** evaluations, benchmarking models on C++ code-generation quality, reasoning depth, and prompt adherence across SWE-bench aligned task formats.
+- Designed model-breaking, high-difficulty coding challenges to expose weaknesses in logic, reasoning, robustness, and generalization, uncovering hallucinations and edge-case failures while building high-quality datasets with unit tests and validation frameworks.
+- Performed security-focused LLM evaluation using real-world **OSVs and CVEs** in fuzz-testing environments, assessing vulnerability detection and secure-coding capability across open-source C++ codebases including **ImageMagick, libxml2, and HAProxy**.
+- Extended evaluation to LLM agent trajectories, building **SWE-bench style RL environments** by curating executable coding tasks, designing reward signals, and constructing evaluation datasets to improve agent reasoning and task completion.
 
-**Technical Lead** - Encora Inc.
+### Technical Lead - Encora Inc.
 
-Led engineering teams across C++ systems and AI/ML initiatives. 21+ months of prompt engineering spanning GitHub Copilot workflows and LLM-based planning.
+- Drove a **~10x performance improvement** in a latency-sensitive financial registrar platform by rearchitecting concurrency models, reducing memory overhead, and tightening execution flow, owning every stage from system design through production delivery.
+- Defined engineering standards and integrated AI-assisted tools for effort estimation, debugging, and release planning, measurably improving release predictability and reducing estimation variance across sprints.
+- Championed code quality and mentorship through structured design and code reviews, establishing implementation-level standards for secure, scalable C++ codebases aligned with OOP principles and design patterns.
 
-**C++ Developer** - ICE Data Services / NYSE
+### C++ Developer - ICE Data Services / NYSE
 
-Low-latency trading infrastructure, real-time market data pipelines, and financial data systems operating at NYSE scale.
+- Owned and delivered production-grade C++ **market data pipelines** processing real-time tick-by-tick and snapshot feeds from global exchanges, crypto, and OTC sources, implementing **FIX, FAST, ITCH, and binary protocols** with deterministic, high-throughput performance.
+- Achieved a **zero-incident APAC infrastructure migration** across RHEL 6 to 8 for mission-critical financial systems, serving as sole technical SME for **Shanghai and Shenzhen Stock Exchange** integrations and ensuring seamless production cutover.
+- Strengthened release confidence by designing automated validation frameworks, AI-driven edge-case simulations, and data-acquisition scripts, directly improving test depth and pre-release stability across FIX, FAST, and ITCH implementations.
 
-**Software Engineer** - Netcracker Technology
+### Software Engineer - Netcracker Technology
 
-Telecom software development and large-scale distributed systems.
+- Delivered production-grade C++ modules for large-scale **telecom billing systems** in distributed environments, improving system throughput and reliability for enterprise clients across multiple R&D and solution-delivery cycles.
+- Built shell-based automation infrastructure that eliminated **~30x overhead** from recurring operational tasks, freeing engineering capacity for feature development and demonstrating early instinct for efficiency at scale.
 
 ---
 
