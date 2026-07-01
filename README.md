@@ -75,12 +75,14 @@ Senior engineer with **9 years** across C++ low-latency high-performance trading
 
 <table>
 <tr>
-<td><img src="https://github-readme-stats.vercel.app/api?username=LokeshKandregula&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" /></td>
-<td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LokeshKandregula&layout=compact&theme=tokyonight&hide_border=true" /></td>
+<td><img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=LokeshKandregula&theme=tokyonight" /></td>
+<td><img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=LokeshKandregula&theme=tokyonight" /></td>
 </tr>
 </table>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=LokeshKandregula&theme=tokyonight&hide_border=true" />
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=LokeshKandregula&theme=tokyonight&utcOffset=5.5" />
 
 </div>
 
