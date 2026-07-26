@@ -1,6 +1,6 @@
-<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=40&duration=4000&pause=1000&color=E8E8E8&center=true&vCenter=true&width=900&height=80&lines=Lokesh+Kandregula" alt="Name" />
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=40&duration=4000&pause=1000&color=E8E8E8&center=true&vCenter=true&width=900&height=80&lines=Lokesh+Kandregula" alt="Name" />
 
-<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=28&duration=5000&pause=1000&color=64748B&center=true&vCenter=true&width=900&height=60&lines=Technical+Lead+%7C+LLM+Evaluation+Engineer;RL+%26+Prompt+Engineer+%7C+C%2B%2B+Systems;AI%2FML+Engineering" alt="Roles" />
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=28&duration=5000&pause=1000&color=64748B&center=true&vCenter=true&width=900&height=60&lines=Technical+Lead+%7C+LLM+Evaluation+Engineer;RL+%26+Prompt+Engineer+%7C+C%2B%2B+Systems;AI%2FML+Engineering" alt="Roles" />
 
 ---
 
@@ -69,22 +69,11 @@ Senior engineer with **9 years** across C++ low-latency high-performance trading
 
 ---
 
-## GitHub Stats
+## Featured Projects
 
-<div align="center">
+**[stateful_interactive_agent_loop](https://github.com/LokeshKandregula/stateful_interactive_agent_loop)** *(Python)* - Terminal agent built on a LangGraph StateGraph that pauses at an interrupt(), waits for real user input, and resumes via Command(resume=...) with durable checkpointed state.
 
-<table>
-<tr>
-<td><img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=LokeshKandregula&theme=tokyonight" /></td>
-<td><img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=LokeshKandregula&theme=tokyonight" /></td>
-</tr>
-</table>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=LokeshKandregula&theme=tokyonight&hide_border=true" />
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=LokeshKandregula&theme=tokyonight&utcOffset=5.5" />
-
-</div>
+**[binance_lob_capture](https://github.com/LokeshKandregula/binance_lob_capture)** *(C++17)* - Production-grade Binance market data capture pipeline and Local Order Book engine in C++17.
 
 ---
 
@@ -92,10 +81,13 @@ Senior engineer with **9 years** across C++ low-latency high-performance trading
 
 ### LLM Evaluation Engineer - Turing (Dec 2025 - Present)
 
-- Trained and evaluated frontier LLMs (Gemini 2.5 Pro, Claude Opus, GPT-o3) through **RLHF** and **RLVR** (Reinforcement Learning with Verifiable Rewards) workflows and structured **Side-by-Side (SxS)** evaluations, benchmarking models on C++ code-generation quality, reasoning depth, and prompt adherence across SWE-bench aligned task formats.
-- Designed model-breaking, high-difficulty coding challenges to expose weaknesses in logic, reasoning, robustness, and generalization, uncovering hallucinations and edge-case failures while building high-quality datasets with unit tests and validation frameworks.
-- Performed security-focused LLM evaluation using real-world **OSVs and CVEs** in fuzz-testing environments, assessing vulnerability detection and secure-coding capability across open-source C++ codebases including **ImageMagick, libxml2, and HAProxy**.
-- Extended evaluation to LLM agent trajectories, building **SWE-bench style RL environments** by curating executable coding tasks, designing reward signals, and constructing evaluation datasets to improve agent reasoning and task completion.
+- Built **end-to-end RL training environments** for frontier LLMs (Gemini 2.5 Pro, Claude Opus, GPT-o3) - authoring task specifications, curating executable datasets, containerising **Docker** sandboxes, shaping reward models, and writing deterministic verifiers; validated task difficulty and environment usability through **SWE-bench** execution runs with **pass@k** calibration against model checkpoints.
+- Applied **RLHF** and **RLVR** (Reinforcement Learning with Verifiable Rewards) alongside structured **Side-by-Side (SxS)** evaluations - tying reward signals to objective correctness criteria and scoring agent trajectories on code reachability, reproducibility, and solvability.
+- Owned **rubric frameworks and QC pipelines** - defining scoring dimensions, **LLM-as-judge** grading systems, and trajectory capture; traced failure modes across agent runs and drove task-quality iteration backed by measurable A/B evidence.
+- Stood up a **self-supervised evaluation pipeline** with 14 held-out synthetic tasks across 5 categories to pressure-test generalisation, isolating live-run failure patterns (encoding crashes, rounding semantics, regex over-redaction) and quantifying the gain from each prompt and architecture change.
+- Re-architected a naive LLM agent into a **Plan-and-Execute** design, reaching a **100% solve rate over 24 tasks** at roughly **$0.017 per task** against a $0.05 budget cap, using exit-code-based verification and runtime domain-rule injection.
+- Engineered production-grade **stateful multi-agent systems with LangGraph** - StateGraph with conditional routing, durable checkpointing, and human-in-the-loop approval gates for real enterprise workflows.
+- Curated **C++ vulnerability datasets** from real-world **OSVs/CVEs** (**ImageMagick, libxml2, HAProxy**), dissecting failure modes in open-source codebases and building security-focused evaluation pipelines that harden model robustness.
 
 ### Technical Lead - Encora Inc.
 
