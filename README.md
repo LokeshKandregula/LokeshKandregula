@@ -23,7 +23,7 @@ open_to: Technical Lead | AI Engineer Lead | RL Engineer | LLM Eval | Prompt Eng
 
 ## Who I Am
 
-Senior engineer with **9 years** across C++ low-latency high-performance trading systems and AI/LLM evaluation. Currently at **Turing** doing LLM red-teaming, RLHF/RLVR pipeline design, and SWE-bench RL environment construction. Background in real-time market data infrastructure at **NYSE/ICE Data Services**. Bridging rigorous systems thinking with modern AI evaluation and alignment work.
+Senior engineer with **9 years** across C++ low-latency high-performance trading systems and AI/LLM evaluation. Currently at **Outlier** doing LLM red-teaming, RLHF/RLVR pipeline design, and SWE-bench RL environment construction. Background in real-time market data infrastructure at **NYSE/ICE Data Services**. Bridging rigorous systems thinking with modern AI evaluation and alignment work.
 
 ---
 
@@ -79,7 +79,7 @@ Senior engineer with **9 years** across C++ low-latency high-performance trading
 
 ## Professional Experience
 
-### LLM Evaluation Engineer - Turing
+### LLM Evaluation Engineer - Outlier
 
 - Built **end-to-end RL training environments** for frontier LLMs (Gemini 2.5 Pro, Claude Opus, GPT-o3) - authoring task specifications, curating executable datasets, containerising **Docker** sandboxes, shaping reward models, and writing deterministic verifiers; validated task difficulty and environment usability through **SWE-bench** execution runs with **pass@k** calibration against model checkpoints.
 - Applied **RLHF** and **RLVR** (Reinforcement Learning with Verifiable Rewards) alongside structured **Side-by-Side (SxS)** evaluations - tying reward signals to objective correctness criteria and scoring agent trajectories on code reachability, reproducibility, and solvability.
